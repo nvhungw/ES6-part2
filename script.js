@@ -23,5 +23,8 @@
 // const resutlReduce = a.reduce((result, item) => result + item, 0);
 // console.log(resutlReduce);
 
-
-
+//Set
+const animals = new Set(['dog', 'cat', 'pig', 'dog']);
+animals.add('fish');
+const newAnimals = [...animals];
+console.log(newAnimals);
